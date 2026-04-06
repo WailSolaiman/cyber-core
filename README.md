@@ -2,6 +2,8 @@
 
 Marketing site for **CYBER_CORE**: a single-page landing built with React, shipped as a static Vite app. Layout, typography, and color tokens follow the reference material in `stitch-cc-design/`.
 
+**Live site:** [https://cybercore.wailsolaiman.com](https://cybercore.wailsolaiman.com)
+
 **Repository:** [github.com/WailSolaiman/cyber-core](https://github.com/WailSolaiman/cyber-core)
 
 ## Stack
