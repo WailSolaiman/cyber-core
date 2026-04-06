@@ -1,0 +1,104 @@
+@import 'tailwindcss';
+
+@theme {
+  /* Surfaces & content (stitch-cc-design / code.html) */
+  --color-page: #050814;
+  --color-background: #0f131f;
+  --color-surface: #0f131f;
+  --color-surface-dim: #0f131f;
+  --color-surface-container-lowest: #0a0e1a;
+  --color-surface-container-low: #171b28;
+  --color-surface-container: #1b1f2c;
+  --color-surface-container-high: #262937;
+  --color-surface-container-highest: #313442;
+  --color-surface-variant: #313442;
+  --color-surface-bright: #353947;
+  --color-on-surface: #dfe1f4;
+  --color-on-surface-variant: #b9cacb;
+  --color-on-background: #dfe1f4;
+  --color-outline-variant: #3b494b;
+  --color-outline: #849495;
+  --color-primary-container: #00f0ff;
+  --color-on-primary: #00363a;
+  --color-primary: #dbfcff;
+  --color-primary-fixed: #7df4ff;
+  --color-surface-tint: #00dbe9;
+
+  --font-headline: 'Space Grotesk', ui-sans-serif, system-ui, sans-serif;
+  --font-body: 'Plus Jakarta Sans', ui-sans-serif, system-ui, sans-serif;
+  --font-label: 'Space Grotesk', ui-sans-serif, system-ui, sans-serif;
+
+  --radius-sm: 0;
+  --radius-md: 0;
+  --radius-lg: 0;
+  --radius-xl: 0;
+  --radius-2xl: 0;
+  --radius-3xl: 0;
+  --radius-none: 0;
+}
+
+@layer base {
+  html {
+    @apply scroll-smooth overflow-x-clip;
+  }
+
+  body {
+    @apply m-0 min-h-dvh bg-page font-body text-on-surface antialiased;
+    @apply selection:bg-primary-container selection:text-on-primary;
+    @apply break-words [word-break:break-word];
+  }
+}
+
+@layer utilities {
+  /** Horizontal padding: mobile → tablet → desktop */
+  .section-x {
+    @apply px-4 sm:px-6 md:px-10 lg:px-20;
+  }
+
+  .glass-panel {
+    background-color: rgb(27 31 44 / 0.6);
+    backdrop-filter: blur(12px);
+  }
+
+  .glow-hover {
+    @apply transition-all;
+  }
+
+  .glow-hover:hover {
+    box-shadow: 0 0 20px 2px rgb(0 240 255 / 0.3);
+  }
+
+  .scanline {
+    pointer-events: none;
+    background: linear-gradient(
+      to bottom,
+      transparent 50%,
+      rgb(0 240 255 / 0.05) 50%
+    );
+    background-size: 100% 4px;
+  }
+
+  .kinetic-line {
+    position: absolute;
+    height: 1px;
+    width: 100%;
+    background: linear-gradient(
+      90deg,
+      transparent,
+      #3b494b 50%,
+      transparent
+    );
+  }
+
+  .node-point {
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    background-color: var(--color-primary-container);
+  }
+
+  .hero-stroke {
+    color: transparent;
+    -webkit-text-stroke: 1px rgb(255 255 255 / 0.3);
+  }
+}

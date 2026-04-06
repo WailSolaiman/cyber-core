@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" role="img" aria-label="CYBER_CORE">
+  <title>CYBER_CORE</title>
+  <rect width="32" height="32" fill="#0a0e1a"/>
+  <path
+    fill="none"
+    stroke="#00f0ff"
+    stroke-width="1.75"
+    stroke-linejoin="miter"
+    d="M16 2.5 27.5 8v10.2c0 6.4-4.9 11.8-11.5 12.8h-.1C8.4 29.9 4.5 24.5 4.5 18.2V8L16 2.5z"
+  />
+  <rect x="14" y="14" width="4" height="4" fill="#00f0ff"/>
+</svg>
