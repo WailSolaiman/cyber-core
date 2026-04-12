@@ -1,6 +1,6 @@
 # CYBER_CORE
 
-Marketing site for **CYBER_CORE**: a single-page landing built with React, shipped as a static Vite app. Layout, typography, and color tokens follow the reference material in `stitch-cc-design/`.
+**CYBER_CORE** is a tactical cybersecurity story: *Invisible Protection. Absolute Control.*—digital perimeters, threat intel, a global mesh map, proof and capabilities, and a **Secure Uplink** to get in touch. Branded **CYBER_CORE TACTICAL** throughout.
 
 **Live site:** [https://cybercore.wailsolaiman.com](https://cybercore.wailsolaiman.com)
 
