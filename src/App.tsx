@@ -6,7 +6,7 @@ export default function App() {
   return (
     <Routes>
       <Route element={<Layout />}>
-        <Route index element={<HomePage />} />
+        <Route path="*" element={<HomePage />} />
       </Route>
     </Routes>
   )
