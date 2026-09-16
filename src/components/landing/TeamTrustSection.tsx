@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion'
 import { MotionSection } from './MotionSection'
 
-const portraitSrc = `${import.meta.env.BASE_URL}M_Vasquez.jpeg`
+const portraitSrc = `${import.meta.env.BASE_URL}M_Vasquez.webp`
 
 export function TeamTrustSection() {
   return (

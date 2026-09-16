@@ -8,8 +8,7 @@ import {
 } from 'lucide-react'
 import { MotionSection } from './MotionSection'
 
-const threatMapImage =
-  'https://lh3.googleusercontent.com/aida-public/AB6AXuCPJTjbwHDinZ_tcbawqQfm1DZvG0P4DZACQhbuEzdqDhr2HvRB0SCuBxsPeJS-i5waevCGOrbe6jPs4FPDCqnm1Y8fVOiVD6FpWTmp9S9d5QGrA-xVTPm9QJXPwFM2vJanIBNcHIshk96ucnYUZ11K_Lo9G51dAlEdR93m-epqf0ZilSfVvd17dCeuohAnZvL9lzXgT9hh_Q9sBoproqFCZxilqlA2rSxUZnw7kouDYF4HQ5eUEdih_DsVU6QBxCMH6YadndJYQ20'
+const threatMapImage = `${import.meta.env.BASE_URL}threat-map.webp`
 
 export function CapabilitiesSection() {
   return (

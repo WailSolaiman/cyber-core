@@ -6,7 +6,7 @@ import { MotionSection } from './MotionSection'
 const VB_W = 720
 const VB_H = 360
 
-const MAP_SRC = `${import.meta.env.BASE_URL}world_map.jpeg`
+const MAP_SRC = `${import.meta.env.BASE_URL}world_map.webp`
 
 type NodeDef = {
   id: string

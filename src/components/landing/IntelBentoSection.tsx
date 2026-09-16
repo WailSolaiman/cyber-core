@@ -1,8 +1,7 @@
 import { ArrowRight, Radar } from 'lucide-react'
 import { MotionSection } from './MotionSection'
 
-const serverRoomImage =
-  'https://lh3.googleusercontent.com/aida-public/AB6AXuADQ7Yv-RhMFynVvpGkCarvGAq3g8DXwAmGs1JRizJ1Kg98_34g0B0D330r9P_ohi0dQ4SiYbfa2JhBwfEg4Lns_Ipo_PBdoGrnm8xia6KlRmy2gKdLCJQO00U0Py0U5_RuavcgQFAh15u7Df5o8HLiUpoBzuRqTvbtz209GImAM_lbAS_vJ-9JpqVHXapUU7v9QEInIYY0es6G4iigF9mUxlrZwvckQQmU93qmqWFSz4xLefnWE1Zn97e-naXYMYMPiBuDtpOLtBc'
+const serverRoomImage = `${import.meta.env.BASE_URL}server-room.webp`
 
 export function IntelBentoSection() {
   return (
